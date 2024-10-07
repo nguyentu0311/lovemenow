@@ -9,7 +9,7 @@ let yesClickCount = 0; // Đếm số lần nhấn nút Yes
 yesBtn.addEventListener("click", () => {
   yesClickCount++; // Tăng biến đếm mỗi lần nhấn
   if (yesClickCount === 1) {
-    question.innerHTML = "I love you too! 😘";
+    question.innerHTML = "I love you too! Khà khà 😘";
     gif.src =
       "https://i.pinimg.com/originals/58/23/24/582324fbf51a81471e98e428fda121fd.gif";
   } else if (yesClickCount === 2) {
